@@ -1,104 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>George Woodhams</title>
-    <style>
-        /* Animated dark gradient background */
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(-45deg, #cd0000, #e3ba12, #239c30);
-            background-size: 400% 400%;
-            animation: gradientBG 15s ease infinite;
-            color: #fff;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        @keyframes gradientBG {
-            0% {background-position: 0% 50%;}
-            50% {background-position: 100% 50%;}
-            100% {background-position: 0% 50%;}
-        }
-
-        /* Card container */
-        .card {
-            background: rgba(20, 20, 20, 0.95);
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 500px;
-            width: 100%;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            backdrop-filter: blur(10px);
-            text-align: center;
-        }
-
-        h1 {
-            margin-bottom: 30px;
-            font-size: 2.5em;
-        }
-
-        h2 {
-            margin: 20px 0 15px;
-            font-size: 1.5em;
-            color: #ccc;
-        }
-
-        /* Social links as sleek buttons */
-        .links {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 12px;
-        }
-
-        a {
-            display: inline-block;
-            padding: 14px 30px;
-            text-decoration: none;
-            color: #fff;
-            border-radius: 50px;
-            font-size: 1.1em;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            max-width: 100%;
-            text-align: center;
-        }
-
-        a:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
-        }
-
-        /* Individual social colors */
-
-        .personal { background: linear-gradient(45deg, #6d33ff, #1d16bd); }
-        .professional {background: linear-gradient(45deg, #dfbf76, #9e16bd); }
-
-    </style>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-<div class="card">
-    <h1>Links to:</h1>
-    <h2>Personal</h2>
-    <div class="links">
-        <a class="personal" href="https://gxtlight20.github.io/linktree_personal/" target="_blank">Personal Links</a>
+    <div class="card">
+        <h1>George Woodhams</h1>
+        <p>
+        <a class="personal" href="https://gxtlight20.github.io/share_sheet_personal/" target="_blank">Personal</a>
+        <a class="professional" href="https://gxtlight20.github.io/share_sheet_professional/" target="_blank">Professional</a>
+        </p>
+    </div>
+    <div class="info">
+        <p>This photo was taken at <a title="Open 58 High Street in Ramsgate on Google Maps."style="color: white" href="https://www.google.com/maps/place/58+High+St,+Ramsgate+CT11+9AG/" target="_blank">58 High Street in Ramsgate</a> on the 22<sup>nd</sup> October 2022 by me.</p>
+    </div>
 
-    </div>
-    <h2>Professional</h2>
-    <div class="links">
-        <a class="professional" href="https://gxtlight20.github.io/linktree_professional/" target="_blank">Professional Links</a>
-    </div>
-    <p>Last updated: 29-OCT-2025</p>
-    <p>Version 2.0</p>
-</div>
 
 </body>
 </html>
